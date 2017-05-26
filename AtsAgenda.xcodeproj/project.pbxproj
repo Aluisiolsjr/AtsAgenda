@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846192B31ED8B57800CD3451 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846192B21ED8B57800CD3451 /* ConfigViewController.swift */; };
 		84DBA17E1ED77735003D4E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBA17D1ED77735003D4E43 /* AppDelegate.swift */; };
 		84DBA1801ED77735003D4E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBA17F1ED77735003D4E43 /* ViewController.swift */; };
 		84DBA1831ED77735003D4E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DBA1811ED77735003D4E43 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		846192B21ED8B57800CD3451 /* ConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigViewController.swift; path = ../ConfigViewController.swift; sourceTree = "<group>"; };
 		84DBA17A1ED77735003D4E43 /* AtsAgenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtsAgenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DBA17D1ED77735003D4E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DBA17F1ED77735003D4E43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		84DBA17C1ED77735003D4E43 /* AtsAgenda */ = {
 			isa = PBXGroup;
 			children = (
+				846192B21ED8B57800CD3451 /* ConfigViewController.swift */,
 				84DBA17D1ED77735003D4E43 /* AppDelegate.swift */,
 				84DBA17F1ED77735003D4E43 /* ViewController.swift */,
 				84DBA1811ED77735003D4E43 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				84DBA1801ED77735003D4E43 /* ViewController.swift in Sources */,
 				84DBA17E1ED77735003D4E43 /* AppDelegate.swift in Sources */,
+				846192B31ED8B57800CD3451 /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				84DBA18E1ED77735003D4E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
